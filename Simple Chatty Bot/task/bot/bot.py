@@ -3,5 +3,6 @@ print('I was created in 2020.')
 print('Please, remind me your name.')
 
 # reading a name
+your_name = input()
 
-print('What a great name you have, {your_name}!')
+print(f'What a great name you have, {your_name}!')
