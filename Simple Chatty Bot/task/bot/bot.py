@@ -33,15 +33,28 @@ def count():
 
 def test():
     print("Let's test your programming knowledge.")
-    # write your code here
+    ask_question()
+    answer = input()
+    while answer != 1:  # 1. is the correct answer
+        print('Please, try again.')
+        answer = input()
+
     print('Completed, have a nice day!')
+
+
+def ask_question():
+    print("Which is the world's longest river?")
+    print('1. The Amazon River')
+    print('2. The Danube River')
+    print('3. The Nile River')
+    print('4. The Mississippi River')
 
 
 def end():
     print('Congratulations, have a nice day!')
 
 
-greet('Aid', '2020')  # change it as you need
+greet('Christopher', '2021')
 remind_name()
 guess_age()
 count()
