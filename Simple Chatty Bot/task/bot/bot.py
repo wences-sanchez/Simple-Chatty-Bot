@@ -37,7 +37,7 @@ def test():
     answer = input()
     while answer != 1:  # 1. is the correct answer
         print('Please, try again.')
-        answer = input()
+        answer = int(input())
 
     print('Completed, have a nice day!')
 
@@ -58,5 +58,5 @@ greet('Christopher', '2021')
 remind_name()
 guess_age()
 count()
-# ...
+test()
 end()
